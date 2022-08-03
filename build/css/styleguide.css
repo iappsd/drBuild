@@ -1,0 +1,111 @@
+:root { 
+  --alabaster: #fbfbfa;
+  --bay-of-many: #27357e;
+  --black: #020202;
+  --cerulean: #179bd7;
+  --cerulean-2: #19aed9;
+  --dove-gray: #707070;
+  --gray: #919191;
+  --green-blue: #006cb4;
+  --stack: #8f8f8f;
+  --white: #ffffff;
+  --wild-sand: #f4f4f4;
+ 
+  --font-size-l: 23px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xl: 31px;
+  --font-size-xs: 12px;
+  --font-size-xxs: 10px;
+  --font-size-xxxs: 8px;
+ 
+  --font-family-alqabas-bold: "AlQabas-Bold", Helvetica;
+  --font-family-el_messiri: "El Messiri", Helvetica;
+}
+.elmessiri-normal-stack-16px {
+  color: var(--stack);
+  font-family: var(--font-family-el_messiri);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.elmessiri-normal-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-el_messiri);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.elmessiri-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-el_messiri);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.elmessiri-normal-cerulean-10px {
+  color: var(--cerulean);
+  font-family: var(--font-family-el_messiri);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.elmessiri-normal-black-8px {
+  color: var(--black);
+  font-family: var(--font-family-el_messiri);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.elmessiri-normal-cerulean-7px {
+  color: var(--cerulean);
+  font-family: var(--font-family-el_messiri);
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.elmessiri-normal-gray-19px {
+  color: var(--gray);
+  font-family: var(--font-family-el_messiri);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.elmessiri-normal-stack-20px {
+  color: var(--stack);
+  font-family: var(--font-family-el_messiri);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.alqabas-bold-green-blue-30px {
+  color: var(--green-blue);
+  font-family: var(--font-family-alqabas-bold);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-cerulean-2 {
+  border: 1px solid var(--cerulean-2);
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-1px-cerulean {
+  border: 1px solid var(--cerulean);
+}
+
+.border-2px-green-blue {
+  border: 2px solid var(--green-blue);
+}
